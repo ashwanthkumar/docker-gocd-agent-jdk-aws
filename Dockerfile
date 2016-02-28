@@ -1,4 +1,4 @@
-FROM ashwanthkumar/gocd-agent-jdk:16.2.1
+FROM ashwanthkumar/gocd-agent-jdk:latest
 MAINTAINER Ashwanth Kumar
 
 RUN apk --update add python py-pip  \
